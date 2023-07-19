@@ -9,11 +9,15 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 nav{
+    background-color: #9376e0;
+}
+.nav-container{
     display: flex;
     align-items: center;
     min-height: 50px;
     max-width: 1440px;
     margin: 0 auto;
+    
 }
 .logo-container{
  
@@ -40,8 +44,16 @@ nav{
     width: 50%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 .nav-item-container a{
     text-decoration: none;
+}
+.nav-item-container .btn-login{
+    background-color: #e893cf;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: black;
 }
